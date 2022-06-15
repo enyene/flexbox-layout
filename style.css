@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    background-color:  hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsl(0, 0%, 95%);
+   
+}
+
+
+@media screen and (max-width : 1440px){
+    body{
+        width:100%
+    }
+}
+@media screen and (max-width : 375px){
+    body{
+        width:100%
+    }
+}
+
+
+main{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    align-items: stretch;
+    border:20px ;
+    padding: 10px;
+    max-width: 1400;
+    
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    
+   
+}
+.sedan button{
+    color:hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    
+    max-height: 50%;
+}
+.suv button{
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+}
+
+.luxury{
+    background-color:hsl(179, 100%, 13%) ;
+    padding: 20px;
+}
+.luxury button{
+    color:hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+}
+
+p{
+    padding: 25px;
+}
+button {
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    cursor:pointer;   
+}
+button:hover {
+    background-color:inherit;
+    color: white;
+    border: 2px solid white;
+}
+
+
+a{
+    color: hsl(31, 77%, 52%);
+    width: 150px;
+}
+
+
+
+#btn-grid{
+    color:hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+    border: hsl(31, 77%, 52%)solid 2px;
+}
