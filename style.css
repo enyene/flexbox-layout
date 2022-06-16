@@ -93,6 +93,7 @@ button:hover {
 a{
     color: hsl(31, 77%, 52%);
     width: 150px;
+    text-decoration: none;
 }
 
 
